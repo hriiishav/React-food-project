@@ -18,7 +18,7 @@ function Footer(){
     }
     return(
         <div className="footer">
-              <img src={logo} className='flogo'></img>
+              <img src={logo} className='flogo' alt="" ></img>
               <div className="footer-main">
                 <div>
                     <h4>Company</h4>
@@ -54,11 +54,11 @@ function Footer(){
                 </div>
                 <div>
                     <h4>Contact us</h4>
-                    <a href="#"><img src={insta} className='footerimg' ></img></a>
-                    <a href="#"><img src={whatsapp}  className='footerimg'></img></a>
-                    <a href="#"><img src={pintrest} className='footerimg' ></img></a>
-                    <a href="#"><img src={linkedin} className='footerimg' ></img></a>
-                    <a href="#"><img src={youtube} className='footerimg' ></img></a>
+                    <a href="javascript:void(0)"><img src={insta} className='footerimg' alt=""></img></a>
+                    <a href="javascript:void(0)"><img src={whatsapp}  className='footerimg' alt=""></img></a>
+                    <a href="javascript:void(0)"><img src={pintrest} className='footerimg' alt=""></img></a>
+                    <a href="javascript:void(0)"><img src={linkedin} className='footerimg' alt=""></img></a>
+                    <a href="javascript:void(0)"><img src={youtube} className='footerimg' alt=""></img></a>
                 </div>
               
               </div>
